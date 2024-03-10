@@ -1,0 +1,16 @@
+export const assets = [
+    {url: "./ui/Box_Orange_Rounded.png", name: "Box"},
+    {url: "./ui/Banner_Orange.png", name: "Banner"},
+    {url: "./ui/ButtonText_Small_Orange_Square.png", name: "ButtonText"},
+    {url: "./ui/ButtonText_Large_Orange_Square.png", name: "ButtonTextLarge"},
+    {url: "./ui/Icon_Large_StarGrey_WhiteOutline.png", name: "IconLargeStarGrey"},
+    {url: "./ui/Icon_Large_Star_WhiteOutline.png", name: "IconLargeStar"},
+    {url: "./ui/Icon_Small_WhiteOutline_Coin.png", name: "IconCoin"},
+    {url: "./ui/Icon_Small_WhiteOutline_Diamond.png", name: "IconDiamond"},
+    {url: "./ui/Icon_Small_WhiteOutline_Star.png", name: "IconSmallStar"},
+    {url: "./ui/Icon_Small_WhiteOutline_StarGrey.png", name: "IconSmallStarGrey"},
+    {url: "./ui/PremadeButtons_Replay.png", name: "ButtonReplay"},
+    {url: "./ui/PremadeButtons_XRed.png", name: "ButtonX"},
+    {url: "./ui/ButtonText_Orange_TextField.png", name: "TextFieldOrange"},
+    {url: "./ui/ButtonText_Blue_TextField.png", name: "TextFieldBlue"},
+]
