@@ -1,6 +1,8 @@
 import { Application, Loader } from 'pixi.js'
 import { assets } from './assets';
 import { UITarea } from './scene/UITarea';
+import { UIKeyboard } from './scene/UIKeyboard';
+import { Keyboard } from './utils/Keyboard';
 
 const app = new Application({
 	view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
@@ -10,6 +12,8 @@ const app = new Application({
 	width: 1720,
 	height: 790
 });
+
+Keyboard.initialize(); 
 
 window.addEventListener("resize", ()=>{
 	const scaleX = window.innerWidth / app.screen.width;
@@ -35,9 +39,13 @@ window.dispatchEvent(new Event("resize")); //Llama al evento "resize" para centr
 
 Loader.shared.add(assets);
 
+
 Loader.shared.onComplete.add(()=>{ 
 	const myUITarea = new UITarea()
 	app.stage.addChild(myUITarea)
+
+	const myBackgroundKeyboard = new UIKeyboard()
+	app.stage.addChild(myBackgroundKeyboard);
 });
 
 Loader.shared.load();

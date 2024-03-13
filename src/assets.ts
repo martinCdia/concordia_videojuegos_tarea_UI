@@ -10,7 +10,22 @@ export const assets = [
     {url: "./ui/Icon_Small_WhiteOutline_Star.png", name: "IconSmallStar"},
     {url: "./ui/Icon_Small_WhiteOutline_StarGrey.png", name: "IconSmallStarGrey"},
     {url: "./ui/PremadeButtons_Replay.png", name: "ButtonReplay"},
+    {url: "./ui/PremadeButtons_ReplayOff.png", name: "ButtonReplayOff"},
     {url: "./ui/PremadeButtons_XRed.png", name: "ButtonX"},
+    {url: "./ui/PremadeButtons_XWhiteOutline.png", name: "ButtonXWhiteOutline"},
     {url: "./ui/ButtonText_Orange_TextField.png", name: "TextFieldOrange"},
     {url: "./ui/ButtonText_Blue_TextField.png", name: "TextFieldBlue"},
+
+    {url: "./ui/Box_Orange_Square.png", name: "BackgroundKeyboard"},
+    {url: "./ui/TextBox_Blank_Middle.png", name: "DialogBox"},
+
+    {url: "./ui/btn_up_orange.png", name: "ButtonUpOrange"},
+    {url: "./ui/btn_up_grey.png", name: "ButtonUpGrey"},
+    {url: "./ui/btn_down_orange.png", name: "ButtonDownOrange"},
+    {url: "./ui/btn_down_grey.png", name: "ButtonDownGrey"},
+    {url: "./ui/btn_right_orange.png", name: "ButtonRightOrange"},
+    {url: "./ui/btn_right_grey.png", name: "ButtonRightGrey"},
+    {url: "./ui/btn_left_orange.png", name: "ButtonLeftOrange"},
+    {url: "./ui/btn_left_grey.png", name: "ButtonLeftGrey"},
+
 ]
